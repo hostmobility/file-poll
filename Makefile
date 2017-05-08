@@ -1,6 +1,5 @@
 EXEC_NAME = file-poll
 SRCS = file_poll.c
-CC = $(CROSS_COMPILE)gcc
 CFLAGS = -O2 -Wall
 OBJS = $(SRCS:.c=.o)
 
